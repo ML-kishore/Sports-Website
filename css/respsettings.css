@@ -89,9 +89,12 @@
         
         
     }
+    .footer{
+        width: 100%;
+    }
 }
 @media screen and (max-width:760px){
-   
+  
     .features{
         width: 100%;
         float: left;
@@ -106,5 +109,13 @@
     }
     .cards{
         margin: 50%;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (max-width:992px){
+    .footer{
+        width: 100%;
     }
 }
